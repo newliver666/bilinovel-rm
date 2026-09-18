@@ -1,0 +1,43 @@
+# 构建产物（APK 通过 Releases 分发，不入库）
+*.apk
+*.apk.idsig
+*.aab
+*.apks
+
+# 逆向分析工作目录
+work/
+build/
+evidence/
+findings/
+
+# 签名密钥与证书（严禁入库）
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+keys/
+
+# 原始样本
+*.dex
+*.smali
+*.orig
+
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
